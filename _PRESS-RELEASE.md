@@ -1,4 +1,14 @@
 # Project Name #
+/-------------------------------------------------\
+|                            d8b                  |
+|                            Y8P                  |
+|                                                 |
+|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
+| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
+| 88       8888888   VNVNV   888  Y8888b.  8888888|
+| 88       88         VNV    888       Y8  88     |
+| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
+\-------------------------------------------------/
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -17,28 +27,74 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+> Name the product in a way the reader (i.e. your target customers) will understand.
+/-------------------------------------------------\
+|                            d8b                  |
+|                            Y8P                  |
+|                                                 |
+|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
+| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
+| 88       8888888   VNVNV   888  Y8888b.  8888888|
+| 88       88         VNV    888       Y8  88     |
+| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
+\-------------------------------------------------/
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+> Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+/-------------------------------------------------\
+|                            d8b                  |
+|                            Y8P                  |
+|                                                 |
+|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
+| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
+| 88       8888888   VNVNV   888  Y8888b.  8888888|
+| 88       88         VNV    888       Y8  88     |
+| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
+\-------------------------------------------------/
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+This app aims to make sharing music with friends in real time regardless of distance. This is achieved by integrating spotify's streaming service with a real time messaging app. As a result you can chat with your friends, and listen along with them in real time. Some fun benefits to using this are: you can essentially create your own radio station for your friends to listen to, you can talk about a song with your friends as it's happening, or you can have your friends help you discover new music.
 
 ## Problem ##
-  > Describe the problem your product solves.
+Currently there is no great solution for collaboratively playing and listening to music with friends remotely.
+  
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+Directly integrated into our messaging app you can see when your friend starts streaming and begin listenging along in real time.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+> A quote from a spokesperson in your company.
+/-------------------------------------------------\
+|                            d8b                  |
+|                            Y8P                  |
+|                                                 |
+|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
+| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
+| 88       8888888   VNVNV   888  Y8888b.  8888888|
+| 88       88         VNV    888       Y8  88     |
+| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
+\-------------------------------------------------/
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+To get started you will need a few things first:
+  >a Spotify account
+  >an account with our app
+
+After that simply search for friends on our service and start messaging them. 
+Whenever you're ready to stream music just add music to your queue and start streaming to friends by clicking either the "Start Public Stream" button or the "Stream To Friend" button. 
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+This app was fun and easy to use! It was really cool feeling like a personal DJ for my friends, and I love tuning into my friends streams to discover new music.
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+/-------------------------------------------------\
+|                            d8b                  |
+|                            Y8P                  |
+|                                                 |
+|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
+| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
+| 88       8888888   VNVNV   888  Y8888b.  8888888|
+| 88       88         VNV    888       Y8  88     |
+| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
+\-------------------------------------------------/
