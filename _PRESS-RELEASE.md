@@ -1,14 +1,5 @@
 # Project Name #
-/-------------------------------------------------\
-|                            d8b                  |
-|                            Y8P                  |
-|                                                 |
-|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
-| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
-| 88       8888888   VNVNV   888  Y8888b.  8888888|
-| 88       88         VNV    888       Y8  88     |
-| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
-\-------------------------------------------------/
+Chatify
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -27,30 +18,10 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-> Name the product in a way the reader (i.e. your target customers) will understand.
-/-------------------------------------------------\
-|                            d8b                  |
-|                            Y8P                  |
-|                                                 |
-|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
-| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
-| 88       8888888   VNVNV   888  Y8888b.  8888888|
-| 88       88         VNV    888       Y8  88     |
-| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
-\-------------------------------------------------/
+Messaging with music
 
 ## Sub-Heading ##
-> Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-/-------------------------------------------------\
-|                            d8b                  |
-|                            Y8P                  |
-|                                                 |
-|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
-| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
-| 88       8888888   VNVNV   888  Y8888b.  8888888|
-| 88       88         VNV    888       Y8  88     |
-| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
-\-------------------------------------------------/
+Real time radio stations powered by spotify, hosted by you and your friends.
 
 ## Summary ##
 This app aims to make sharing music with friends in real time regardless of distance. This is achieved by integrating spotify's streaming service with a real time messaging app. As a result you can chat with your friends, and listen along with them in real time. Some fun benefits to using this are: you can essentially create your own radio station for your friends to listen to, you can talk about a song with your friends as it's happening, or you can have your friends help you discover new music.

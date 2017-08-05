@@ -12,8 +12,8 @@ Y8b.  .d8Y  Y8b.  .d8Y  88      88 88       Yb.  .dY'
 HIGH LEVEL:
 * Implement basic chat functionality
 * Require sign in
-* Make friends list
-* Make now playing view
+<!--* Make friends list-->
+<!--* Make now playing view-->
 * USE SALTED PASSWORDS AND ENCRYPTION
 
 DETAILS:

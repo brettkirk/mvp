@@ -1,9 +1,8 @@
 //THIS IS THE CLIENT APPVIEW
 const React = require('react');
 const ReactDOM = require('react-dom');
-
-//TODO
-//make a table later that includes a chat column and a sidebar column
+import Chat from './components/chat.jsx';
+import SideBar from './components/sideBar.jsx';
 
 class AppView extends React.Component {
   constructor(props) {
@@ -12,7 +11,14 @@ class AppView extends React.Component {
 
   render() {
     return (<div>
-      <h1>Hello, world!</h1>
+      <table width="100%">
+        <tbody>
+        <tr>
+          <td width="75%"><Chat /></td>
+          <td width="25%"><SideBar /></td>
+        </tr>
+        </tbody>
+      </table>
     </div>);
   }
 }
