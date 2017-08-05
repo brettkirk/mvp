@@ -28,6 +28,9 @@ class SideBar extends React.Component {
     super(props);
     this.handleFriendsClick = this.handleFriendsClick.bind(this);
     this.handleQueueClick = this.handleQueueClick.bind(this);
+
+    this.track = '42bX41IUG46ZgfoBORXale';
+
     this.state = {
       option: 'Friends'
     };
@@ -45,14 +48,21 @@ class SideBar extends React.Component {
     const option = this.state.option;
 
     let button = null;
+    let head = null;
     if (option === 'Queue') {
+      head = <h2>Music Queue</h2>
       button = <FriendsButton onClick={this.handleFriendsClick} />;
     } else {
+      head = <h2>Friends List</h2>
       button = <QueueButton onClick={this.handleQueueClick} />;
     }
 
+    let spotifyString = `https://open.spotify.com/embed?uri=spotify:track:${this.track}`
+
     return (<div> 
       {button}
+      {head}
+      <iframe src={spotifyString} width="300" height="80" frameBorder="0" allowTransparency="true"></iframe>
       <WhichSideBar option={option}/>
     </div>);
   }
