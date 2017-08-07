@@ -39,6 +39,7 @@ Directly integrated into our messaging app you can see when your friend starts s
 ## How to Get Started ##
 To get started you will need a few things first:
   >a Spotify account
+  
   >an account with our app
 
 After that simply search for friends on our service and start messaging them. 
