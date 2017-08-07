@@ -34,17 +34,7 @@ Currently there is no great solution for collaboratively playing and listening t
 Directly integrated into our messaging app you can see when your friend starts streaming and begin listenging along in real time.
 
 ## Quote from You ##
-> A quote from a spokesperson in your company.
-/-------------------------------------------------\
-|                            d8b                  |
-|                            Y8P                  |
-|                                                 |
-|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
-| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
-| 88       8888888   VNVNV   888  Y8888b.  8888888|
-| 88       88         VNV    888       Y8  88     |
-| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
-\-------------------------------------------------/
+"It's techncially an app" - Tommy Volk, Head of App Definitions
 
 ## How to Get Started ##
 To get started you will need a few things first:
@@ -55,17 +45,7 @@ After that simply search for friends on our service and start messaging them.
 Whenever you're ready to stream music just add music to your queue and start streaming to friends by clicking either the "Start Public Stream" button or the "Stream To Friend" button. 
 
 ## Customer Quote ##
-This app was fun and easy to use! It was really cool feeling like a personal DJ for my friends, and I love tuning into my friends streams to discover new music.
+"This app was fun and easy to use! It was really cool feeling like a personal DJ for my friends, and I love tuning into my friends streams to discover new music." - Karun Pavithran
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
-/-------------------------------------------------\
-|                            d8b                  |
-|                            Y8P                  |
-|                                                 |
-|Y.d8888b  .d888b. VN\   /NV 888 .d8888b.  .d888b.|
-| 88Y   Y8 88   88  VN\ /NV  888 8Y        88   88|
-| 88       8888888   VNVNV   888  Y8888b.  8888888|
-| 88       88         VNV    888       Y8  88     |
-| 88        Y888Y      V     888 "Y8888Y"   Y888Y |
-\-------------------------------------------------/
+If you want to download the app and try it for yourself go over to http://www.notarealwebsite.com/chatify/download and download it for yourself!
