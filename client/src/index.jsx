@@ -39,7 +39,7 @@ class AppView extends React.Component {
         <tbody>
         <tr>
           <td width="75%"><RenderChat user={this.state.user}/></td>
-          <td width="25%"><SideBar handleUserClick={(user) => { this.handleUserClick(user) }}/></td>
+          <td id="sidebar" width="25%"><SideBar handleUserClick={(user) => { this.handleUserClick(user) }}/></td>
         </tr>
         </tbody>
       </table>

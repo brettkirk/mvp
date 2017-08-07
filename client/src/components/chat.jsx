@@ -89,7 +89,7 @@ function Messages(props) {
     <tbody>
       <tr>
       <td><img src="http://www.clker.com/cliparts/A/Y/O/m/o/N/placeholder-hi.png" width="32" height="32" /></td>
-      <td><span>{message.from}</span><br /><span>{message.text}</span></td>
+      <td><span className="name">{message.from}</span><br /><span className="text">{message.text}</span></td>
       </tr>
     </tbody>
     </table>

@@ -130,7 +130,7 @@ function Friends(props) {
     <tbody>
       <tr>
       <td><img src="http://www.clker.com/cliparts/A/Y/O/m/o/N/placeholder-hi.png" width="32" height="32" /></td>
-      <td><tr><span onClick={() => { this.props.handleUserClick(user)}}>{user.username}</span></tr><tr>{user.currentSong}</tr></td>
+      <td><tr><span className="name" onClick={() => { this.props.handleUserClick(user)}}>{user.username}</span></tr><tr className="text">{user.currentSong}</tr></td>
       </tr>
     </tbody>
     </table>
@@ -141,7 +141,7 @@ function Friends(props) {
       <tbody>
         <tr>
         <td><img src="http://www.clker.com/cliparts/A/Y/O/m/o/N/placeholder-hi.png" width="32" height="32" /></td>
-        <td><tr><span>Brett</span></tr><tr>{currentSong.name}</tr></td>
+        <td><tr><span className="name">Brett</span></tr><tr className="text">{currentSong.name}</tr></td>
         </tr>
       </tbody>
       </table> 

@@ -25,7 +25,7 @@ DETAILS:
 * Randomly assign profile images
 
 FINAL TOUCHES:
-* Add "conversation with FRIENDS-NAME-HERE" to top of chat view
+<!--* Add "conversation with FRIENDS-NAME-HERE" to top of chat view-->
 * Make songs sync in real time with stream
 * Encrypt messages between users
 * Add more robust song search options
