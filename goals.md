@@ -10,7 +10,7 @@ Y8b.  .d8Y  Y8b.  .d8Y  88      88 88       Yb.  .dY'
 #===================================================#
 
 HIGH LEVEL:
-* Implement basic chat functionality
+<!--* Implement basic chat functionality-->
 * Require sign in
 <!--* Make friends list-->
 <!--* Make now playing view-->

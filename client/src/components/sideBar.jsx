@@ -101,7 +101,7 @@ function WhichSideBar(props) {
   if (selected === 'Queue') {
     return <Queue length={props.length} />;
   }
-  return <Friends currentSong={props.currentSong} />;
+  return <Friends currentSong={props.currentSong} handleUserClick={(user) => { this.props.handleUserClick(user)}}/>;
 }
 
 function Queue(props) {
@@ -123,12 +123,14 @@ function Friends(props) {
   if (!previousSong) {
     var previousSong = currentSong;
   }
+
+
   const user = friends.map((user) => 
     <table>
     <tbody>
       <tr>
       <td><img src="http://www.clker.com/cliparts/A/Y/O/m/o/N/placeholder-hi.png" width="32" height="32" /></td>
-      <td><tr><span>{user.username}</span></tr><tr>{user.currentSong}</tr></td>
+      <td><tr><span onClick={() => { this.props.handleUserClick(user)}}>{user.username}</span></tr><tr>{user.currentSong}</tr></td>
       </tr>
     </tbody>
     </table>
@@ -217,7 +219,7 @@ class SideBar extends React.Component {
       {head}
       <div><button onClick={this.handleSkipClick}>Skip</button> {length} songs left.</div>
       <iframe src={`https://open.spotify.com/embed?uri=spotify:track:${this.state.song.uri}`} width={this.twentyFive} height="80" frameBorder="0" allowTransparency="true"></iframe>
-      <WhichSideBar option={option} length={length} currentSong={this.state.song} />
+      <WhichSideBar option={option} length={length} currentSong={this.state.song} handleUserClick={(user) => { this.props.handleUserClick(user)}}/>
     </div>);
   }
 }

@@ -2,7 +2,6 @@
 const $ = require('jquery');
 const message = require('../../../helpers/messaging.js');
 import React from 'react';
-// import Messages from './chat/messages.jsx';
 
 
 let lastUpdate = 1501958310000;
@@ -77,7 +76,13 @@ function Messages(props) {
   }
   if (props.friend === 'Spencer') {
     var messages = spencerMessages;
-  }
+  } else if (props.friend === 'Ting') {
+    var messages = tingMessages;
+  } else if (props.friend === 'Karun') {
+    var messages = karunMessages;
+  } else if (props.friend === 'Becca') {
+    var messages = beccaMessages;
+  } 
 
   const message = messages.map((message) => 
     <table>
@@ -103,14 +108,14 @@ class Chat extends React.Component {
 
     this.state = {
       messages: 0,
-      friend: 'Spencer'
+      friend: props.user
     }
   }
 
   handleSend() {
     let input = $('input').val();
     let me = 'Brett';
-    let friend = 'Spencer';
+    let friend = this.props.user;
 
     var time = new Date().toString();
     var time = Date.parse(time);
@@ -124,7 +129,16 @@ class Chat extends React.Component {
 
     $.post('/send', messageObj);
 
-    spencerMessages.push(messageObj);
+    if (friend === 'Spencer') {
+      spencerMessages.push(messageObj);
+    } else if (friend === 'Ting') {
+      tingMessages.push(messageObj);
+    } else if (friend === 'Karun') {
+      karunMessages.push(messageObj);
+    } else if (friend === 'Becca') {
+      beccaMessages.push(messageObj);
+    } 
+    
 
     this.setState({messages: this.state.messages++})
     $('input').val('');
@@ -132,9 +146,9 @@ class Chat extends React.Component {
 
   render() {
     return (<div>
-      <h2>Conversation with {this.state.friend}</h2>
+      <h2>Conversation with {this.props.user}</h2>
       <input type="text" name="input"></input> <button onClick={this.handleSend}>Send</button>
-      <Messages friend={this.state.friend} />
+      <Messages friend={this.props.user} />
     </div>);
   }
 }

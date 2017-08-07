@@ -125,8 +125,6 @@ let removeQueue = (user) => {
 |       get data from database         |
 \*------------------------------------*/
 
-let newMessages = [];
-
 let findMessages = (lastUpdate) => {
   console.log(window.messages);
   return db.collection('messages').find({createdAt: {$gt: lastUpdate}}).toArray(function(err, result) {
@@ -147,4 +145,3 @@ module.exports.saveSong = saveSong;
 module.exports.saveQueue = saveQueue;
 
 module.exports.findMessages = findMessages;
-module.exports.newMessages = newMessages;

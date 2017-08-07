@@ -8,10 +8,29 @@ window.messages = window.messages || [];
 
 console.log(window.messages)
 
+function RenderChat(props) {
+  const user = props.user;
+  if (!previousUser) {
+    var previousUser = user;
+  }
+
+  return (<Chat user={props.user}/>);
+}
 
 class AppView extends React.Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      user: 'Spencer'
+    }
+
+    this.handleUserClick = this.handleUserClick.bind(this)
+  }
+
+  handleUserClick(user) {
+    this.setState({user: user.username});
+    console.log(this.state.user)
   }
 
   render() {
@@ -19,8 +38,8 @@ class AppView extends React.Component {
       <table width="100%">
         <tbody>
         <tr>
-          <td width="75%"><Chat /></td>
-          <td width="25%"><SideBar /></td>
+          <td width="75%"><RenderChat user={this.state.user}/></td>
+          <td width="25%"><SideBar handleUserClick={(user) => { this.handleUserClick(user) }}/></td>
         </tr>
         </tbody>
       </table>
