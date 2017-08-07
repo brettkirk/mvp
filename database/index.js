@@ -1,6 +1,7 @@
 //THIS IS THE DATABASE INDEX WHERE MOST DATABASE PROCESSES WILL BE HANDLED
 const mongoose = require('mongoose');
 const $ = require('jquery');
+const msg = require('../client/messages.js');
 mongoose.connect('mongodb://localhost/chatify');
 
 //start mongo connection
@@ -26,8 +27,8 @@ let userSchema = mongoose.Schema({
 let User = mongoose.model('User', userSchema);
 
 let messageSchema = mongoose.Schema({
-  from: Number,
-  to: Number,
+  from: String,
+  to: String,
   text: String,
   createdAt: Number
 });
@@ -35,7 +36,9 @@ let messageSchema = mongoose.Schema({
 let Message = mongoose.model('Message', messageSchema);
 
 let songSchema = mongoose.Schema({
-  spotifyId: String
+  name: String,
+  artist: String,
+  uri: String
 });
 
 let Song = mongoose.model('Song', songSchema);
@@ -85,7 +88,9 @@ let saveMessage = (msgObj) => {
 
 let saveSong = (songObj) => {
   var newSong = new Song({
-    spotifyId: songObj.id
+    name: songObj.name,
+    artist: songObj.artist,
+    uri: songObj.uri
   });
 
   newSong.save(function(err, newSong) {
@@ -123,22 +128,17 @@ let removeQueue = (user) => {
 let newMessages = [];
 
 let findMessages = (lastUpdate) => {
-  db.collection('messages').find({createdAt: {$gt: lastUpdate}}).toArray(function(err, result) {
+  console.log(window.messages);
+  return db.collection('messages').find({createdAt: {$gt: lastUpdate}}).toArray(function(err, result) {
     if (err) {
       throw err;
     }
-    newMessages = result;
-    for (var i = 0; i < result.length; i++) {
-      console.log(result[i])
-      var username = 'Brett';// db.collection('users').find({_id: result[i].from})
-      var text = result[i].text;
-
-     
-    }
-    return;
+    console.log(3);
+    msg.messages(result);
+    console.log(msg.messages());
+    return result;
   });
 }
-
 
 
 module.exports.saveUser = saveUser;

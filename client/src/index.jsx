@@ -4,6 +4,11 @@ const ReactDOM = require('react-dom');
 import Chat from './components/chat.jsx';
 import SideBar from './components/sideBar.jsx';
 
+window.messages = window.messages || [];
+
+console.log(window.messages)
+
+
 class AppView extends React.Component {
   constructor(props) {
     super(props);
